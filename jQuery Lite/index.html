@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="lib/jquery_lite.js" charset="utf-8"></script>
+  </head>
+  <body>
+    $.ajax({
+      type: 'GET',
+      url: "http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=bcb83c4b54aee8418983c2aff3073b3b",
+      success(data) {
+        console.log("We have your weather!")
+        console.log(data);
+      },
+      error() {
+        console.error("An error occurred.");
+      },
+    });
+    <div class="">
+
+    </div>
+    <div class="">
+
+    </div>
+    <div class="">
+
+    </div>
+    <a href="#"></a>
+    <a href="#"></a>
+    <a href="#"></a>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </body>
+</html>
